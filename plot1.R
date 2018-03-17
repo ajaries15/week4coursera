@@ -1,0 +1,2 @@
+bar1 <- c("red", "yellow", "orange", "green")
+barplot(height=yearly_emmissions$Emissions/1000, names.arg=yearly_emmissions$year, xlab="Year", ylab=expression('Total Emission'),main=expression('Total PM'[2.5]*' Emmissions by Year in the US'), col = bar1)
